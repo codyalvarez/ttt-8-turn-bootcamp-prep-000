@@ -24,8 +24,9 @@ end
 # is the move an index between 0-8
 
 def valid_move?(board, index)
-  if board[index] == "X" || board[index] == "O"
-    true
+  if position_taken?! || board[index] == index.between?!(0, 8)
+    false
+  
   end
 
 end
