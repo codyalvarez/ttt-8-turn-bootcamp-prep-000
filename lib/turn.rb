@@ -19,7 +19,7 @@ def position_taken?(board, index)
   end
 end
 
-def valid_move?(board, index)
+def valid_move?(index)
    input_to_index.borad[index].position_taken?
 
 
