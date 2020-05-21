@@ -19,7 +19,13 @@ def position_taken?(board, index)
   end
 end
 
+# whats a vaild move ?
+# is the spot taken?
+# is the move an index between 0-8
+
 def valid_move?(board, index)
+  if board[index] == "X" || board[index] == "O" || board[index] == >= 8
+    true
 
 end
 
