@@ -20,7 +20,7 @@ def position_taken?(board, index)
 end
 
 def valid_move?(board, index)
-   position_taken?
+   board[index].position_taken?
 end
 
 def move
