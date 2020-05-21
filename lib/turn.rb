@@ -21,7 +21,6 @@ end
 
 def valid_move?(board, index)
    index.position_taken?
-
 end
 
 def move
