@@ -11,11 +11,6 @@ def input_to_index(user_input)
   input - 1
 end
 
-def valid_move?(board, index)
-   index.position_taken
-
-end
-
 def position_taken?(board, index)
   if board[index] == " " || board[index] == "" || board[index] == nil
     false
@@ -24,7 +19,10 @@ def position_taken?(board, index)
   end
 end
 
+def valid_move?(board, index)
+   index.position_taken?
 
+end
 
 def move
 end
