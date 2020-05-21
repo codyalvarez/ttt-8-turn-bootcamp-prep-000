@@ -20,8 +20,6 @@ def position_taken?(board, index)
 end
 
 def valid_move?(index)
-   input_to_index.borad[index].position_taken?
-
 
 end
 
