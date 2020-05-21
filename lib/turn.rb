@@ -20,7 +20,8 @@ def position_taken?(board, index)
 end
 
 def valid_move?(board, index)
-   board[index].position_taken?
+   input = board[index].position_taken?
+   ipnut
 end
 
 def move
