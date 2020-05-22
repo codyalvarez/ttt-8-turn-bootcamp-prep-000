@@ -13,7 +13,7 @@ end
 
 def valid_move?(board, index)
   if board[index] == "X" || board[index] == "O" || !index.betwween?(0, 8)
-    return false 
+    return false
   else
     return true
 end
