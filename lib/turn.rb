@@ -23,18 +23,18 @@ def move(board, index, token = "X")
   board[index] = token
 end
 
-def turn_count
-  counter = 0
-
-  board.each do |turn|
-    if turn == "X" || turn == "O"
-      counter += 1
-      puts "#{counter}"
-    end
-  end
-
-  counter
-end
+# def turn_count
+#   counter = 0
+#
+#   board.each do |turn|
+#     if turn == "X" || turn == "O"
+#       counter += 1
+#       puts "#{counter}"
+#     end
+#   end
+#
+#   counter
+# end
 
 def current_player
   turn_count.even? == true ? "X" : "O"
