@@ -19,7 +19,7 @@ def valid_move?(board, index)
   end
 end
 
-def move(index, token = "X")
+def move(board, index, token = "X")
   board[index] = token
 
 
