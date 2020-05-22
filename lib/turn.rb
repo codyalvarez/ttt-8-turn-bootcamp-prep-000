@@ -27,17 +27,17 @@ def turn(user_input)
   puts "Please enter 1-9:"
   user_input = gets.chomp
   input_to_index(user_input)
-  if valid_move?(index) == true
-    move(index, value = "X")
-    puts display_board
-  elsif valid_move?(index) == true
-    move(index, value = "O")
-    puts display_board
-  elsif valid_move?(index) == false
-    puts "Please enter 1-9:"
-    input = gets.chomp
-  else
-    puts "Please enter 1-9:"
-    input = gets.chomp
-  end
+  # if valid_move?(index) == true && current_player == "X"
+  #   move(index, value = "X")
+  #   puts display_board
+  # elsif valid_move?(index) == true && current_player == "O"
+  #   move(index, value = "O")
+  #   puts display_board
+  # elsif valid_move?(index) == false
+  #   puts "Please enter 1-9:"
+  #   input = gets.chomp
+  # else
+  #   puts "Please enter 1-9:"
+  #   input = gets.chomp
+  # end
 end
