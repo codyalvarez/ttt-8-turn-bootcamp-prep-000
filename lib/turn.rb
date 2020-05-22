@@ -30,6 +30,11 @@ def turn_count
     if turn == "X" || turn == "O"
       counter += 1
       puts "#{counter}"
+    end
+  end
+
+  counter
+end
 
 def turn(user_input)
   puts "Please enter 1-9:"
