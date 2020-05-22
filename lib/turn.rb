@@ -36,6 +36,10 @@ def turn_count
   counter
 end
 
+def current_player
+  turn_count.even? == true ? "X" : "O"
+end
+
 def turn(user_input)
   puts "Please enter 1-9:"
   user_input = gets.chomp
