@@ -25,8 +25,8 @@ end
 
 def turn(user_input)
   puts "Please enter 1-9:"
-  user_input = gets.chomp
-  input_to_index(user_input)
+  # user_input = gets.chomp
+  # input_to_index(user_input)
   # if valid_move?(index) == true && current_player == "X"
   #   move(index, value = "X")
   #   puts display_board
