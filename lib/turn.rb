@@ -26,7 +26,7 @@ end
 def turn(user_input)
   puts "Please enter 1-9:"
   user_input = gets.chomp
-  u
+
 
 
 end
