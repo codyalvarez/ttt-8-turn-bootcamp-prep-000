@@ -36,7 +36,7 @@ def turn(user_input)
   elsif valid_move?(index) == false
     puts "Please enter 1-9:"
     input = gets.chomp
-  else 
+  else
     puts "Please enter 1-9:"
     input = gets.chomp
   end
