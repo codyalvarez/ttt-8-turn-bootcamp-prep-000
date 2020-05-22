@@ -36,9 +36,9 @@ end
 #   counter
 # end
 
-def current_player
-  turn_count.even? == true ? "X" : "O"
-end
+# def current_player
+#   turn_count.even? == true ? "X" : "O"
+# end
 
 def turn(board)
   puts "Please enter 1-9:"
